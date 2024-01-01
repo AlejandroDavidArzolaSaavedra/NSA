@@ -9,7 +9,7 @@
 6. [Validation](#validation)
 
 ## Introduction 🚀
-This document guides you through the process of setting up a primary DNS server and a secondary DNS server for the domain ####.redes.dis.ulpgc.es. The exercises include configuring primary and secondary zones, adjusting zone directives, and testing DNS resolution.
+This document guides you through the process of setting up a primary DNS server and a secondary DNS server for the domain redes.dis.ulpgc.es. The exercises include configuring primary and secondary zones, adjusting zone directives, and testing DNS resolution.
 
 ## Prerequisites 🛠️
 - Linux server with BIND installed

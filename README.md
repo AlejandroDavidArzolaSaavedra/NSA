@@ -32,10 +32,6 @@ This repository contains hands-on networking and security practices designed to 
 
 Each practice comes with its own set of instructions and objectives. Before you begin, make sure to review the specific README file for the practice you're interested in.
 
-## Disclaimer 🚨
-
-These practices involve making changes to your network configuration and security settings. Ensure you are working in a controlled environment and have appropriate permissions before implementing any changes. The practices are designed for educational purposes and should be executed responsibly.
-
 ## Contribution 🤝
 
 If you have suggestions, improvements, or additional practices you'd like to see, feel free to contribute! Create a pull request or open an issue with your ideas.

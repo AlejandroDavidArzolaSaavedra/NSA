@@ -1,6 +1,8 @@
 <h1 align="center">Networking and Security Practices 🌐🔒</h1>
 
-## Overview 📋
+<p align="center">
+   <img width="500px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/f6b8d425-b7ca-47e2-9091-fecd99ce4177">
+</p>
 
 This repository contains hands-on networking and security practices designed to enhance your skills in various areas. Each practice focuses on a specific aspect, providing step-by-step instructions to guide you through the configuration and implementation process.
 

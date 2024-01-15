@@ -1,10 +1,9 @@
 <h1 align="center">Network Services Practices (Squid Proxy) 🦑</h1>
 
-<p align="center">
-  <img width="250px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/c6307088-da66-4439-93fd-fd934b9059e4">
-</p>
+<img align="left" width="150px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/c6307088-da66-4439-93fd-fd934b9059e4">
 
-Squid acts as an intermediary between the client and server. Provides functionalities like access Control, traffic Logging, traffic Filtering, performance Enhancement, anonymity, web Cache, etc.
+
+Squid acts as an intermediary between the client and server. Provides functionalities like access Control, traffic Logging, traffic Filtering, performance Enhancement, anonymity, web Cache, etc.<br><br><br>
 
 **Gateway:**
 - Configured Addresses:

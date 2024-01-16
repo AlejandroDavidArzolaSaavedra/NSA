@@ -1,6 +1,6 @@
 <h1 align="center">Practice: IPTables - Filters 🚧🔒</h1>
 <p align="center">
-  <img width="400px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/c123b4a7-7e57-480c-b5f1-686e871e5c9f">
+  <img width="400px" height=230px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/c123b4a7-7e57-480c-b5f1-686e871e5c9f">
 </p>
 
 

@@ -1,5 +1,9 @@
 <h1 align="center">Network Services Practices (Web Service) 🌐</h1>
 
+<p align="center">
+  <img width="600px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/461b6879-522d-4677-8f30-158b018a7b03">
+</p>
+
 **Apache HTTP Server:**
 - **Description:** This project focuses on configuring a web server using Apache HTTP Server, a free and open-source HTTP server.
 

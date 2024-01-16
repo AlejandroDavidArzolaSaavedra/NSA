@@ -1,5 +1,9 @@
 <h1 align="center">Practice: 📧 Email Services and Security in Networks</h1>
 
+<p align="center">
+  <img width="400px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/1a93b1ad-7655-40db-b239-377fb1a4df85">
+</p>
+
 **Email Gateway Configuration:**
 
 - External OpenVPN interface: 10.110.1.R/24 🌐

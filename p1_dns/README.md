@@ -1,5 +1,9 @@
 <h1 align="center">DNS Server Setup 🌐</h1>
 
+<p align="center">
+  <img width="500px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/11b44808-4aa1-4a2d-a151-2711c685a29c">
+</p>
+
 ## Table of Contents 📜
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)

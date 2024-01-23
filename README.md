@@ -35,5 +35,10 @@ Each practice comes with its own set of instructions and objectives. Before you 
 ## Contribution 🤝
 
 If you have suggestions, improvements, or additional practices you'd like to see, feel free to contribute! Create a pull request or open an issue with your ideas.
-
 Happy learning and networking! 🚀🔐
+
+
+<p align="center">
+   <img width="500px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/e9ee951b-6002-4567-b7f9-a1dffc6c355f">
+</p>
+

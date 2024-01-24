@@ -46,3 +46,8 @@ For more details and additional documentation, refer to [http://www.zytrax.com/b
 **Note:** Replace placeholders such as #### and <domain> with actual values relevant to your network configuration.
 
 Feel free to reach out to the Networking Group at the School of Computer Science and Telecommunications for further assistance: [www.redes.dis.ulpgc.es](www.redes.dis.ulpgc.es). 🌐
+
+<p align="center">
+  <img width="500px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/1d5ba56e-5b88-4e1b-b20c-cc9ae6d03e4f">
+</p>
+

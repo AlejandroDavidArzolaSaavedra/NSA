@@ -38,3 +38,7 @@ Squid acts as an intermediary between the client and server. Provides functional
 
   
 <h2>Explore Squid Proxy in your network services and security practices! 🚀</h2> 
+<p align="center">
+<img width="400px" src="https://github.com/AlejandroDavidArzolaSaavedra/NSA/assets/90756437/c2919ec9-2089-48eb-be28-f734bcfc4f21">
+</p>
+

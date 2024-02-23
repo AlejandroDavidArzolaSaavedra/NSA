@@ -1,0 +1,24 @@
+$TTL	120
+@			1D IN SOA	servidor hostmaster.####.redes.dis.ulpgc.es. (
+					2022030101	; serial 
+					12H		; refresh
+					4320		; retry
+					4W		; expiry
+					60)		; minimum
+
+					IN 	NS	servidor.####.redes.dis.ulpgc.es.
+					IN 	NS	estacion
+
+pasarela				IN	A	10.110.$$$$.1
+servidor				IN	A	10.110.$$$$.2
+estacion				IN	A	10.110.$$$$.3
+e-windows.####.redes.dis.ulpgc.es.	IN	A	10.110.$$$$.4
+
+smtp					IN	CNAME	servidor.####.redes.dis.ulpgc.es.
+www					IN 	CNAME  	servidor
+
+
+; IMPORTANTE
+; Hay que sustituir dominio por el dominio asignado
+; Hay que sustituir red por el número asignado
+

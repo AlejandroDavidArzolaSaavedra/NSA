@@ -1,0 +1,20 @@
+$TTL	120
+@			1D IN SOA	servidor.####.redes.dis.ulpgc.es. hostmaster (
+					2022030101	; serial 
+					12H		; refresh
+					4320		; retry
+					4W		; expiry
+					60)		; minimum
+
+				IN 	NS	servidor.####.redes.dis.ulpgc.es.
+				IN 	NS	estacion.####.redes.dis.ulpgc.es.
+
+1				IN	PTR	pasarela.####.redes.dis.ulpgc.es.
+2.$$$$.110.10.in-addr.arpa.	IN	PTR	servidor.####.redes.dis.ulpgc.es.
+3				IN	PTR	estacion.####.redes.dis.ulpgc.es.
+4				IN	PTR	e-windows.####.redes.dis.ulpgc.es.
+
+
+; IMPORTANTE
+; Hay que sustituir #### por el dominio asignado
+; Hay que sustituir $$$$ por el número asignado

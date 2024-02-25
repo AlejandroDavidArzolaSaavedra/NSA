@@ -1,28 +1,35 @@
-Alejandro Arzola > cat certificadoRaiz.cs 
-cat: certificadoRaiz.cs: No such file or directory
+Alejandro Arzola > ll
+total 8
+-rw-r--r-- 1 kali kali 1451 Feb 25 13:39 certificadoRaiz.crt
+-rw-r--r-- 1 kali kali 1874 Feb 25 13:39 certificadoRaiz.key
                                                                                                                                                     
-Alejandro Arzola > cat certificadoRaiz.csr 
------BEGIN CERTIFICATE REQUEST-----
-MIIDFDCCAfwCAQAwgawxCzAJBgNVBAYTAlNQMSMwIQYDVQQIDBpMQVMgUEFMTUFT
-IERFIEdSQU4gQ0FOQVJJQTEVMBMGA1UEBwwMR1JBTiBDQU5BUklBMQ4wDAYDVQQK
-DAVVTFBHQzEMMAoGA1UECwwDRUlJMRIwEAYDVQQDDAlBREFTLTIwMjQxLzAtBgkq
-hkiG9w0BCQEWIGFsZWphbmRyby5hcnpvbGExMDFAYWx1LnVscGdjLmVzMIIBIjAN
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp3H9yBEAZzEm+opJ65/CXZeep08N
-9XP26tAOwUQL3ClsEkZMokx+CEmPH2Cjr6miLCiPsiH+62IVuPczcnLJMXmNNQ6E
-8ooP6mjfXprSN+pZIt0ScntHpVwTh0Dkx0W+MBFwRDzSc9WxrgAgSSFwEy+HRDIm
-bZJMPOZfc0zcsYKuo3TxA1LQ4dx9FLvyX/kYKVC4WiWksr1MMbOAXX6gS+XTDROm
-WKYrte/Cpr8I5hyCmryqaf+9Y3JuPfmpq5Y9NmyX1a00rWTFZdkrXfFmrS3N9AnA
-v2S8UQf5F/vucwY8CLbXQQZyQJUd2/+WQtkJ3IlpeaW2QbtoFuop6qRIqQIDAQAB
-oCIwIAYJKoZIhvcNAQkHMRMMEU9QRU5TU0wtMjAyMy0yMDI0MA0GCSqGSIb3DQEB
-CwUAA4IBAQBQsteAPpQj2SmG3RIjN+c8H0k9LP0v/B4yxygF2Rm0mv2tXgQWOZMZ
-eZ6IuAKusKfW0H/OH70y+AhxOcLztRj9UYuWFYrXhUG+fDrDvz9f8WmU+BxDduk9
-egKD8HPMObor9aqQ3vH6Du94xywMC40fCtXLW++m3FhfRZwYbVcOLmJxVuTo0ziL
-Cd5adxVQKYW/bXlS6bowNCFfCc7QOyT1AfCGbMGYftVieBfOOVTx8Ce0UMnSXdx5
-FnaGVQ6SdyvUgrLlLW9lQirz1cnM0tyXLrXlk3OuYzbK3EzT8jRHbDjP74ggl/0s
-PFtHYdEGtSSw+q4JRzm86uKWU2mXkgdu
------END CERTIFICATE REQUEST-----
+Alejandro Arzola > cat certificadoRaiz.crt
+----BEGIN CERTIFICATE-----
+MIIEAzCCAusCFHxge6KeuU3jHyJGgu/ZsLCaKfm2MA0GCSqGSIb3DQEBCwUAMIG9
+MQswCQYDVQQGEwJFUzETMBEGA1UECAwKTGFzIFBhbG1hczEjMCEGA1UEBwwaTGFz
+IFBhbG1hcyBkZSBHcmFuIENhbmFyaWExDjAMBgNVBAoMBVVMUEdDMQwwCgYDVQQL
+DANFSUkxLzAtBgNVBAMMJkFzaWduYXR1cmEgU2VndXJpZGFkIGRlIGxhIEluZm9y
+bWFjaW9uMSUwIwYJKoZIhvcNAQkBFhZpbmZvQG9wZW5zc2wuY2ljZWkuY29tMB4X
+DTIzMDIyODA5MzU0MloXDTQzMDIyMzA5MzU0Mlowgb0xCzAJBgNVBAYTAkVTMRMw
+EQYDVQQIDApMYXMgUGFsbWFzMSMwIQYDVQQHDBpMYXMgUGFsbWFzIGRlIEdyYW4g
+Q2FuYXJpYTEOMAwGA1UECgwFVUxQR0MxDDAKBgNVBAsMA0VJSTEvMC0GA1UEAwwm
+QXNpZ25hdHVyYSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpb24xJTAjBgkqhkiG
+9w0BCQEWFmluZm9Ab3BlbnNzbC5jaWNlaS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDgNHLpTIW6K1s/l3w5ExEhoYGtSMnKAMP9uO+++SYvmclM
+PWL4whNRG/SNoAiQb6MQ+D/N8qlgPT0KSUuPiiFJfrPkyVZXZiCRTQajRWq7T5wz
+EPA1lGndbE36CDh97eqZSdtRWHjOM3iWJNW/jgH6+RkLIxnZA0mlHqC58WWGYbJQ
+zqIm/dIXDhgYNCVZUyd840L3vAM1afRwGImbEtwIttYBxkIOhIpXT+/dijKffK1y
+mRgn1cZ3JWZAsM4JevsEd4ZNZBr29qMwQT4kjq+dYBTrGfjYhm2rqFnHP6OtUvze
+t3jaULqKKJ59oUUF6eMOGkGUb6PwKMqTO+aX+h+LAgMBAAEwDQYJKoZIhvcNAQEL
+BQADggEBAI8F+oAf68Gv7+e9uuPAiD5PRbkjNmCuDx4gyHynO1BkClQAY1TtLiCJ
+vROf2ZXkOR0Eah33vHz+Do5cf5KnMFVtFlgQSmn1HLSSL0V+xmlaKAUy7L4S/esy
++DD0VFXKNAFVkt6cU2SUu2vaZTGT+JU99lJT2t6G5i7MVYtImkCgvZEvvCfU51j2
+rZ/DEONYdmjLJfLl2wQuGzC0k7QPNmsm+f3TC+Stz1pA1kkvTzxifGpSiDAY/W9d
+IYa0Vkzo1sDGalQYsuDIgcQ/eB29WX9FrC1sjt8k90uRj3n2bi69BVok8aucpERy
+5K0bVyrCettoaP67iKN3JR6uoLe6Lm0=
+-----END CERTIFICATE-----
                                                                                                                                                     
-Alejandro Arzola > cat certificadoRaiz.key 
+Alejandro Arzola > cat certificadoRaiz.key  
 -----BEGIN ENCRYPTED PRIVATE KEY-----
 MIIFLTBXBgkqhkiG9w0BBQ0wSjApBgkqhkiG9w0BBQwwHAQItQLDVY+GOk4CAggA
 MAwGCCqGSIb3DQIJBQAwHQYJYIZIAWUDBAEqBBCNcJ6HnMEi0XPhVF3G33WJBIIE
@@ -54,14 +61,20 @@ HkpiSX8BD4PTuRL+uGPrnhBASOHcxc+1np+uLmXsQxm2M0zbeJISytREE4R6J3J3
 Zg5t0OKwHth/1vFhOV8//Ci07JIjK7kFZBsAF57y2oCi
 -----END ENCRYPTED PRIVATE KEY-----
                                                                                                                                                     
-Alejandro Arzola > ll
-total 16
--rw------- 1 kali kali 1874 Feb 25 12:44 certificadoPersonal.key
--rw-r--r-- 1 kali kali 1451 Feb 25 12:25 certificadoRaiz.crt
--rw-r--r-- 1 kali kali 1143 Feb 25 12:37 certificadoRaiz.csr
--rw-r--r-- 1 kali kali 1874 Feb 25 11:42 certificadoRaiz.key
+Alejandro Arzola > openssl genpkey -algorithm RSA -aes256 -out certificadoPersonal.key -pkeyopt rsa_keygen_bits:2048
+..........+..........+.....+......+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*..+...+...........+.+...+...+...+...........+...+.+..+.............+..+....+......+...+.........+.....+......+......+...+.+.....+.........+...+....+.........+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*.+..+.+........+.+.....+.........+......+...+............+.........+.........+.......+.....+....+......+.....+......+.......+...+..+.............+.................+..........+.....+.......+.........+.....+.+...+...........+.......+...+.....+.+.....+......+...+.+...........+.......+...+.....+.......+..+...+.+..+....+.........+......+...+..+...+.....................+....+...+.....+..........+.....+.......+.....+...+.......+............+...+...+..+......+.+.....+.+...+......+.........+..+...+.+........+.......+......+.....+...+.........+..........+.....+...............+...+...+....+..+....+......+.........+.....+................+.....+....+...........+....+..............+...+...................+...+.....+.+............+..+.....................+............+...................+.....+......+...+....+...+.........+......+..+.............+..+...+....+...+...+.....+.........+....+.........+..+.+.........+.....+......+...+.+........+.+.........+...+...+....................+......+...+...+.........+....+..............+............+....+.................+....+........+.......+.....+...............+.+.....+...+..........+.....+......+......+.............+..+.......+........+...+....+......+.....+.......+...+..+....+....................+.............+........+...........................+...+....+......+..+.......+.....+...+......+.......+.........+.........+.........+..+...+.......+...+............+......+...+.........+..+...+......+.+..............+....+..+...+......+.+......+...............+..+.......+.................................+...+..+.+.........................................+.............+..+.+.........+.....+...+...+...+....+......+..+....+........+......+.+......+........+.........+......+.+......+...+...........+....+..+............+.+............+...+..+...+..........+.....................+....................+....+..............+...+.......+.....+.+..+.............+....................+.+.....+.+............+...+..+......+.+.....+......+.........+.+..+...+.......+.....+.+......+...........+...+......+.+...+...........+.........+....+...+.....+...+....+..+......+.........+....+..+....+.....+.........+....+...+..+.............+........+............+.........+...+...+.......+......+..............+...+....+...+.....+...+.......+.................+................+.........+...+..+...+......+....+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+......+.......+.....+......+....+......+..+..........+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*...+......+...+..........+..................+...+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*.........+.+.....+.......+...........+.........+.......+...+...........+.......+..+...............+...+...+....+...........+.......+..+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
                                                                                                                                                     
-Alejandro Arzola > openssl req -new -key certificadoPersonal.key -out certificadoRaiz.csr                           
+Alejandro Arzola > openssl req -new -key certificadoPersonal.key -out certificadoPersonal.csr                       
+Enter pass phrase for certificadoPersonal.key:
+Could not read private key from certificadoPersonal.key
+40C7E8046A7F0000:error:1608010C:STORE routines:ossl_store_handle_load_result:unsupported:../crypto/store/store_result.c:151:
+40C7E8046A7F0000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:../providers/implementations/ciphers/ciphercommon_block.c:124:
+40C7E8046A7F0000:error:11800074:PKCS12 routines:PKCS12_pbe_crypt_ex:pkcs12 cipherfinal error:../crypto/pkcs12/p12_decr.c:86:maybe wrong password
+                                                                                                                                                    
+Alejandro Arzola > openssl req -new -key certificadoPersonal.key -out certificadoPersonal.csr
 Enter pass phrase for certificadoPersonal.key:
 You are about to be asked to enter information that will be incorporated
 into your certificate request.
@@ -80,135 +93,108 @@ Email Address []:alejandro.arzola101@alu.ulpgc.es
 
 Please enter the following 'extra' attributes
 to be sent with your certificate request
-A challenge password []:OPENSSL2024
+A challenge password []:OPENSSL-2023-2024
 An optional company name []:
                                                                                                                                                     
-Alejandro Arzola > openssl x509 -req -days 365 -in certificadoRaiz.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt 
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt
 Certificate request self-signature ok
 subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
 Could not read CA certificate from certificadoRaiz.crt
 Unable to load CA certificate
                                                                                                                                                     
-Alejandro Arzola > openssl req -in certificadoRaiz.csr -text                             
-Certificate Request:
-    Data:
-        Version: 1 (0x0)
-        Subject: C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
-        Subject Public Key Info:
-            Public Key Algorithm: rsaEncryption
-                Public-Key: (2048 bit)
-                Modulus:
-                    00:b2:b3:d5:ab:44:8c:7d:43:37:3f:34:c5:97:96:
-                    e8:0f:ed:b0:22:4d:ab:86:8d:15:49:21:d0:db:6e:
-                    f7:c4:88:d9:f9:c4:ed:bb:46:62:ed:2b:8a:e9:a1:
-                    48:65:c6:77:61:0f:1c:57:9f:3c:55:9a:e5:85:69:
-                    74:21:97:2d:24:22:d6:b7:ba:69:20:ff:12:5d:11:
-                    80:90:a6:65:c5:95:17:5f:65:e0:1f:66:90:78:84:
-                    14:7c:2c:15:dd:96:16:e1:2f:2b:07:bd:53:56:34:
-                    a2:86:ae:5e:07:e8:c0:f6:85:06:09:e9:6f:af:0f:
-                    1d:f2:b7:09:05:fc:4f:a1:e6:3c:4e:5d:0d:68:7b:
-                    53:36:38:77:ca:18:b9:27:88:ab:0f:4f:11:f4:ad:
-                    3e:3a:db:20:b7:07:9c:91:45:e6:c6:0f:be:83:b1:
-                    03:4a:a0:d1:18:1a:bb:46:d8:45:94:d6:8d:a8:d9:
-                    3f:4c:0e:0c:5e:68:21:72:5d:8d:81:2a:d2:61:72:
-                    98:09:e6:04:45:20:aa:3a:5d:b1:61:1c:68:30:94:
-                    13:85:80:c0:75:b0:0a:b7:4c:86:77:27:a8:96:40:
-                    ff:d8:e3:c9:ea:1c:59:99:4d:32:eb:55:3a:71:25:
-                    70:c0:56:cb:06:ad:14:fc:21:d0:64:89:9d:76:ff:
-                    27:f1
-                Exponent: 65537 (0x10001)
-        Attributes:
-            challengePassword        :OPENSSL2024
-            Requested Extensions:
-    Signature Algorithm: sha256WithRSAEncryption
-    Signature Value:
-        6a:f7:59:a7:8b:ec:ea:c7:81:e4:bd:b9:65:82:a7:84:79:7e:
-        d0:4b:50:88:40:7e:f8:d9:8c:86:af:22:ef:c7:03:63:70:04:
-        22:97:3a:a9:92:14:b3:5c:91:21:76:c6:eb:4c:34:66:86:88:
-        26:46:0b:41:38:85:1d:f3:4b:2f:b9:13:be:9f:a8:31:69:62:
-        72:ae:29:81:d9:89:9e:f3:01:09:73:46:78:c1:c3:5a:d1:81:
-        65:5d:1c:22:cf:ff:2e:d9:46:56:51:85:61:f3:fb:82:3a:9d:
-        65:52:79:eb:04:32:2f:a6:79:f7:dc:60:03:ce:5b:39:37:5f:
-        b7:5a:89:86:9d:97:de:04:78:e0:73:6f:f6:65:e2:3d:d6:eb:
-        97:1a:20:5d:98:66:dd:47:80:56:b4:32:54:5f:da:91:1d:ee:
-        cd:97:0c:50:d0:f0:1a:0e:9e:62:64:48:91:a1:59:a5:2e:35:
-        c2:29:be:dd:3c:d9:6c:fe:78:3b:02:ca:a3:20:60:42:0e:4e:
-        f1:4f:56:a4:bb:7c:f7:1f:73:ed:0d:f8:35:cf:b5:a6:bf:72:
-        fd:76:ad:86:89:44:ca:7e:30:e8:77:96:2f:ee:29:32:04:ff:
-        16:e1:c4:b9:fd:fa:12:5e:e7:a9:9e:9d:00:13:42:aa:55:39:
-        ec:ad:db:ec
------BEGIN CERTIFICATE REQUEST-----
-MIIDFDCCAfwCAQAwgbIxCzAJBgNVBAYTAkVTMSMwIQYDVQQIDBpMQVMgUEFMTUFT
-IERFIEdSQU4gQ0FOQVJJQTEVMBMGA1UEBwwMR1JBTiBDQU5BUklBMQ4wDAYDVQQK
-DAVVTFBHQzEMMAoGA1UECwwDRUlJMRgwFgYDVQQDDA9BbGVqYW5kcm9BcnpvbGEx
-LzAtBgkqhkiG9w0BCQEWIGFsZWphbmRyby5hcnpvbGExMDFAYWx1LnVscGdjLmVz
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrPVq0SMfUM3PzTFl5bo
-D+2wIk2rho0VSSHQ2273xIjZ+cTtu0Zi7SuK6aFIZcZ3YQ8cV588VZrlhWl0IZct
-JCLWt7ppIP8SXRGAkKZlxZUXX2XgH2aQeIQUfCwV3ZYW4S8rB71TVjSihq5eB+jA
-9oUGCelvrw8d8rcJBfxPoeY8Tl0NaHtTNjh3yhi5J4irD08R9K0+OtsgtweckUXm
-xg++g7EDSqDRGBq7RthFlNaNqNk/TA4MXmghcl2NgSrSYXKYCeYERSCqOl2xYRxo
-MJQThYDAdbAKt0yGdyeolkD/2OPJ6hxZmU0y61U6cSVwwFbLBq0U/CHQZImddv8n
-8QIDAQABoBwwGgYJKoZIhvcNAQkHMQ0MC09QRU5TU0wyMDI0MA0GCSqGSIb3DQEB
-CwUAA4IBAQBq91mni+zqx4HkvbllgqeEeX7QS1CIQH742YyGryLvxwNjcAQilzqp
-khSzXJEhdsbrTDRmhogmRgtBOIUd80svuRO+n6gxaWJyrimB2Yme8wEJc0Z4wcNa
-0YFlXRwiz/8u2UZWUYVh8/uCOp1lUnnrBDIvpnn33GADzls5N1+3WomGnZfeBHjg
-c2/2ZeI91uuXGiBdmGbdR4BWtDJUX9qRHe7NlwxQ0PAaDp5iZEiRoVmlLjXCKb7d
-PNls/ng7AsqjIGBCDk7xT1aku3z3H3PtDfg1z7Wmv3L9dq2GiUTKfjDod5Yv7iky
-BP8W4cS5/foSXuepnp0AE0KqVTnsrdvs
------END CERTIFICATE REQUEST-----
+Alejandro Arzola > ll
+total 16
+-rw-r--r-- 1 kali kali 1151 Feb 25 13:44 certificadoPersonal.csr
+-rw------- 1 kali kali 1874 Feb 25 13:41 certificadoPersonal.key
+-rw-r--r-- 1 kali kali 1451 Feb 25 13:39 certificadoRaiz.crt
+-rw-r--r-- 1 kali kali 1874 Feb 25 13:39 certificadoRaiz.key
                                                                                                                                                     
-Alejandro Arzola > openssl req -in certificadoRaiz.csr -noout -text
-Certificate Request:
-    Data:
-        Version: 1 (0x0)
-        Subject: C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
-        Subject Public Key Info:
-            Public Key Algorithm: rsaEncryption
-                Public-Key: (2048 bit)
-                Modulus:
-                    00:b2:b3:d5:ab:44:8c:7d:43:37:3f:34:c5:97:96:
-                    e8:0f:ed:b0:22:4d:ab:86:8d:15:49:21:d0:db:6e:
-                    f7:c4:88:d9:f9:c4:ed:bb:46:62:ed:2b:8a:e9:a1:
-                    48:65:c6:77:61:0f:1c:57:9f:3c:55:9a:e5:85:69:
-                    74:21:97:2d:24:22:d6:b7:ba:69:20:ff:12:5d:11:
-                    80:90:a6:65:c5:95:17:5f:65:e0:1f:66:90:78:84:
-                    14:7c:2c:15:dd:96:16:e1:2f:2b:07:bd:53:56:34:
-                    a2:86:ae:5e:07:e8:c0:f6:85:06:09:e9:6f:af:0f:
-                    1d:f2:b7:09:05:fc:4f:a1:e6:3c:4e:5d:0d:68:7b:
-                    53:36:38:77:ca:18:b9:27:88:ab:0f:4f:11:f4:ad:
-                    3e:3a:db:20:b7:07:9c:91:45:e6:c6:0f:be:83:b1:
-                    03:4a:a0:d1:18:1a:bb:46:d8:45:94:d6:8d:a8:d9:
-                    3f:4c:0e:0c:5e:68:21:72:5d:8d:81:2a:d2:61:72:
-                    98:09:e6:04:45:20:aa:3a:5d:b1:61:1c:68:30:94:
-                    13:85:80:c0:75:b0:0a:b7:4c:86:77:27:a8:96:40:
-                    ff:d8:e3:c9:ea:1c:59:99:4d:32:eb:55:3a:71:25:
-                    70:c0:56:cb:06:ad:14:fc:21:d0:64:89:9d:76:ff:
-                    27:f1
-                Exponent: 65537 (0x10001)
-        Attributes:
-            challengePassword        :OPENSSL2024
-            Requested Extensions:
-    Signature Algorithm: sha256WithRSAEncryption
-    Signature Value:
-        6a:f7:59:a7:8b:ec:ea:c7:81:e4:bd:b9:65:82:a7:84:79:7e:
-        d0:4b:50:88:40:7e:f8:d9:8c:86:af:22:ef:c7:03:63:70:04:
-        22:97:3a:a9:92:14:b3:5c:91:21:76:c6:eb:4c:34:66:86:88:
-        26:46:0b:41:38:85:1d:f3:4b:2f:b9:13:be:9f:a8:31:69:62:
-        72:ae:29:81:d9:89:9e:f3:01:09:73:46:78:c1:c3:5a:d1:81:
-        65:5d:1c:22:cf:ff:2e:d9:46:56:51:85:61:f3:fb:82:3a:9d:
-        65:52:79:eb:04:32:2f:a6:79:f7:dc:60:03:ce:5b:39:37:5f:
-        b7:5a:89:86:9d:97:de:04:78:e0:73:6f:f6:65:e2:3d:d6:eb:
-        97:1a:20:5d:98:66:dd:47:80:56:b4:32:54:5f:da:91:1d:ee:
-        cd:97:0c:50:d0:f0:1a:0e:9e:62:64:48:91:a1:59:a5:2e:35:
-        c2:29:be:dd:3c:d9:6c:fe:78:3b:02:ca:a3:20:60:42:0e:4e:
-        f1:4f:56:a4:bb:7c:f7:1f:73:ed:0d:f8:35:cf:b5:a6:bf:72:
-        fd:76:ad:86:89:44:ca:7e:30:e8:77:96:2f:ee:29:32:04:ff:
-        16:e1:c4:b9:fd:fa:12:5e:e7:a9:9e:9d:00:13:42:aa:55:39:
-        ec:ad:db:ec
-                                                                                                                                                    
-Alejandro Arzola > openssl x509 -req -days 365 -in certificadoRaiz.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoPersonal.key -CAcreateserial -out certificadoPersonal.crt 
 Certificate request self-signature ok
 subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
 Could not read CA certificate from certificadoRaiz.crt
 Unable to load CA certificate
-                                 
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from certificadoRaiz.crt
+Unable to load CA certificate
+                                                                                                                                                    
+Alejandro Arzola > cat certificadoRaiz.crt               
+----BEGIN CERTIFICATE-----
+MIIEAzCCAusCFHxge6KeuU3jHyJGgu/ZsLCaKfm2MA0GCSqGSIb3DQEBCwUAMIG9
+MQswCQYDVQQGEwJFUzETMBEGA1UECAwKTGFzIFBhbG1hczEjMCEGA1UEBwwaTGFz
+IFBhbG1hcyBkZSBHcmFuIENhbmFyaWExDjAMBgNVBAoMBVVMUEdDMQwwCgYDVQQL
+DANFSUkxLzAtBgNVBAMMJkFzaWduYXR1cmEgU2VndXJpZGFkIGRlIGxhIEluZm9y
+bWFjaW9uMSUwIwYJKoZIhvcNAQkBFhZpbmZvQG9wZW5zc2wuY2ljZWkuY29tMB4X
+DTIzMDIyODA5MzU0MloXDTQzMDIyMzA5MzU0Mlowgb0xCzAJBgNVBAYTAkVTMRMw
+EQYDVQQIDApMYXMgUGFsbWFzMSMwIQYDVQQHDBpMYXMgUGFsbWFzIGRlIEdyYW4g
+Q2FuYXJpYTEOMAwGA1UECgwFVUxQR0MxDDAKBgNVBAsMA0VJSTEvMC0GA1UEAwwm
+QXNpZ25hdHVyYSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpb24xJTAjBgkqhkiG
+9w0BCQEWFmluZm9Ab3BlbnNzbC5jaWNlaS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDgNHLpTIW6K1s/l3w5ExEhoYGtSMnKAMP9uO+++SYvmclM
+PWL4whNRG/SNoAiQb6MQ+D/N8qlgPT0KSUuPiiFJfrPkyVZXZiCRTQajRWq7T5wz
+EPA1lGndbE36CDh97eqZSdtRWHjOM3iWJNW/jgH6+RkLIxnZA0mlHqC58WWGYbJQ
+zqIm/dIXDhgYNCVZUyd840L3vAM1afRwGImbEtwIttYBxkIOhIpXT+/dijKffK1y
+mRgn1cZ3JWZAsM4JevsEd4ZNZBr29qMwQT4kjq+dYBTrGfjYhm2rqFnHP6OtUvze
+t3jaULqKKJ59oUUF6eMOGkGUb6PwKMqTO+aX+h+LAgMBAAEwDQYJKoZIhvcNAQEL
+BQADggEBAI8F+oAf68Gv7+e9uuPAiD5PRbkjNmCuDx4gyHynO1BkClQAY1TtLiCJ
+vROf2ZXkOR0Eah33vHz+Do5cf5KnMFVtFlgQSmn1HLSSL0V+xmlaKAUy7L4S/esy
++DD0VFXKNAFVkt6cU2SUu2vaZTGT+JU99lJT2t6G5i7MVYtImkCgvZEvvCfU51j2
+rZ/DEONYdmjLJfLl2wQuGzC0k7QPNmsm+f3TC+Stz1pA1kkvTzxifGpSiDAY/W9d
+IYa0Vkzo1sDGalQYsuDIgcQ/eB29WX9FrC1sjt8k90uRj3n2bi69BVok8aucpERy
+5K0bVyrCettoaP67iKN3JR6uoLe6Lm0=
+-----END CERTIFICATE-----
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoPersonal.key -CAcreateserial -out certificadoPersonal.crt
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from certificadoRaiz.crt
+Unable to load CA certificate
+                                                                                                                                                    
+Alejandro Arzola > ll
+total 16
+-rw-r--r-- 1 kali kali 1151 Feb 25 13:44 certificadoPersonal.csr
+-rw------- 1 kali kali 1874 Feb 25 13:41 certificadoPersonal.key
+-rw-r--r-- 1 kali kali 1451 Feb 25 13:39 certificadoRaiz.crt
+-rw-r--r-- 1 kali kali 1874 Feb 25 13:39 certificadoRaiz.key
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoPersonal.key -CAcreateserial -out certificadoPersonal.crt
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from certificadoRaiz.crt
+Unable to load CA certificate
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt -p
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from certificadoRaiz.crt
+Unable to load CA certificate
+                                                                                                                                                    
+Alejandro Arzola > ll
+total 16
+-rw-r--r-- 1 kali kali 1151 Feb 25 13:44 certificadoPersonal.csr
+-rw------- 1 kali kali 1874 Feb 25 13:41 certificadoPersonal.key
+-rw-r--r-- 1 kali kali 1451 Feb 25 13:39 certificadoRaiz.crt
+-rw-r--r-- 1 kali kali 1874 Feb 25 13:39 certificadoRaiz.key
+                                                                                                                                                    
+Alejandro Arzola > chmod +777 certificadoRaiz.crt
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt -p
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from certificadoRaiz.crt
+Unable to load CA certificate
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA ~/Desktop/si/lab3/certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt -p 
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from /home/kali/Desktop/si/lab3/certificadoRaiz.crt
+Unable to load CA certificate
+                                                                                                                                                    
+Alejandro Arzola > openssl x509 -req -days 365 -in certificadoPersonal.csr -CA certificadoRaiz.crt -CAkey certificadoRaiz.key -CAcreateserial -out certificadoPersonal.crt -p                  
+Certificate request self-signature ok
+subject=C = ES, ST = LAS PALMAS DE GRAN CANARIA, L = GRAN CANARIA, O = ULPGC, OU = EII, CN = AlejandroArzola, emailAddress = alejandro.arzola101@alu.ulpgc.es
+Could not read CA certificate from certificadoRaiz.crt
+Unable to load CA certificate
